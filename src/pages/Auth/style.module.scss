@@ -1,0 +1,29 @@
+.auth {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+.authHeader {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 25px;
+  display: flex;
+  // justify-content: space-around;
+}
+
+.authLink {
+  background: none;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #3c5346;
+  cursor: pointer;
+  text-decoration: none;
+
+  &Active {
+    color: #fff;
+  }
+}

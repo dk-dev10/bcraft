@@ -1,0 +1,24 @@
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  min-width: 145px;
+  cursor: pointer;
+  border: none;
+  background: #f97c20;
+
+  &:hover {
+    background: lighten(#f97c20, 5.25%);
+  }
+
+  &:disabled {
+    background: darken(#f97c20, 25.25%);
+  }
+
+  &Line {
+    background: transparent;
+    border: 1px solid #fff;
+  }
+}
