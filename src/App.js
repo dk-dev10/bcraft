@@ -10,7 +10,7 @@ const App = () => {
 
   const publicRoutes = (
     <Switch>
-      <Route path={'/'}>
+      <Route path={'/bcraft/'}>
         <Auth />
       </Route>
     </Switch>
@@ -18,13 +18,13 @@ const App = () => {
 
   const privateRoutes = (
     <Switch>
-      <Route path={'/'} exact>
+      <Route path={'/bcraft/'} exact>
         <Main />
       </Route>
-      <Route path={'/pass'} exact>
+      <Route path={'/bcraft/pass'} exact>
         <Change />
       </Route>
-      <Redirect to={'/'} />
+      <Redirect to={'/bcraft/'} />
     </Switch>
   );
 

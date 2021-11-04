@@ -32,7 +32,7 @@ const Registration = () => {
     setRptPass('');
 
     alert('Вы успешно зарегистрировались!');
-    history.push('/');
+    history.push('/bcraft/');
   };
 
   useEffect(() => {

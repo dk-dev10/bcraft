@@ -15,27 +15,27 @@ function Auth() {
         <NavLink
           className={cn('authLink')}
           activeClassName={cn('authLinkActive')}
-          to={'/login'}
+          to={'/bcraft/login'}
         >
           Войти
         </NavLink>
         <NavLink
           className={cn('authLink')}
           activeClassName={cn('authLinkActive')}
-          to={'/regst'}
+          to={'/bcraft/regst'}
         >
           Регистрация
         </NavLink>
       </div>
       <div>
         <Switch>
-          <Route path={'/login'} exact>
+          <Route path={'/bcraft/login'} exact>
             <Login />
           </Route>
-          <Route path={'/regst'} exact>
+          <Route path={'/bcraft/regst'} exact>
             <Registration />
           </Route>
-          <Redirect to='/login' />
+          <Redirect to='/bcraft/login' />
         </Switch>
       </div>
     </div>

@@ -32,7 +32,7 @@ const Change = () => {
     const user = { ...data, id: Number(token), oldPass };
     dispatch({ type: CHANGE_PASSWORD, payload: user });
 
-    history.push('/');
+    history.push('/bcraft/');
   };
 
   useEffect(() => {
@@ -85,7 +85,7 @@ const Change = () => {
         />
         <div className={style.btns}>
           <Button disable={!rptPswrd}>Изменить</Button>
-          <Button onClick={() => history.push('/')}>На главную</Button>
+          <Button onClick={() => history.push('/bcraft/')}>На главную</Button>
         </div>
       </form>
     </div>

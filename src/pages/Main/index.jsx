@@ -15,7 +15,7 @@ const Main = () => {
       <h1>Добро пожаловать!</h1>
       <div className={style.btns}>
         <Button onClick={() => dispatch({ type: SIGN_OUT })}>Выйти</Button>
-        <Button onClick={() => history.push('/pass')}>Изменить пароль</Button>
+        <Button onClick={() => history.push('/bcraft/pass')}>Изменить пароль</Button>
       </div>
     </div>
   );
