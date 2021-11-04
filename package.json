@@ -1,7 +1,7 @@
 {
   "name": "bcraft",
   "version": "0.1.0",
-  "homepage": "http://dk-dev10.github.io/bcraft",
+  "homepage": "http://dk-dev10.github.io/bcraft/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
